@@ -36,7 +36,7 @@ https://github.com/Mathmode/PINNSandDFR_kerascore
 
 We let $\Omega =[0,\pi]^2$ and consider the variational form: find $E \in H(curl,\Omega)$ satisfying
 
-$$ \int_\Omega  \crl(E) \cdot \crl(\phi)+ E \cdot \phi \, d\tx = \int_\Omega \tilde{J} \cdot \phi \, d\tx \qquad \forall \phi \in H(curl,\Omega) $$
+$$ \int_\Omega  curl(E) \cdot curl(\phi)+ E \cdot \phi \, dx = \int_\Omega \tilde{J} \cdot \phi \, dx \qquad \forall \phi \in H(curl,\Omega) $$
 
 with, $\tilde{J}$ is chosen such that the exact solution is $E^{\mathrm{exact}}(x,y) = (xy(y-\pi),xy(x-\pi))^t$. 
 
