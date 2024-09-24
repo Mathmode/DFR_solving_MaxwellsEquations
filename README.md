@@ -34,13 +34,13 @@ https://github.com/Mathmode/PINNSandDFR_kerascore
 
 ## Examples
 
-We let $\Om =[0,\pi]^2$ and consider the variational form: find $\tE \in \Hcz$ satisfying
+We let $\Omega =[0,\pi]^2$ and consider the variational form: find $E \in H(curl,\Omega)$ satisfying
 
 \begin{equation}\label{eq:ex1}
-	\int_\Om  [\crl(\tE) \cdot \crl(\bphi)+ \tE \cdot \bphi ]\, d\tx = \int_\Om \tilde{\tJ} \cdot \bphi \, d\tx \qquad \forall \bphi \in \Hcz.
+	\int_\Omega  [\crl(E) \cdot \crl(\phi)+ E \cdot \phi ]\, d\tx = \int_\Om \tilde{J} \cdot \phi \, d\tx \qquad \forall \phi \in H(curl,\Omega).
 \end{equation}
 
-Here, $\tilde{\tJ}$ is chosen such that the exact solution is $\tE^{\mathrm{exact}}(x,y) = (xy(y-\pi),xy(x-\pi))^t$. 
+Here, $\tilde{J}$ is chosen such that the exact solution is $E^{\mathrm{exact}}(x,y) = (xy(y-\pi),xy(x-\pi))^t$. 
 
 ## Authors 
 
